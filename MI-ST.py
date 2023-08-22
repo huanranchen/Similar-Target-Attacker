@@ -1,5 +1,5 @@
 import torch
-from .AdversarialInputBase import AdversarialInputAttacker
+from .CommonWeakness import MI_CommonWeakness
 from typing import Callable, List, Iterable
 from attacks.utils import *
 from .utils import cosine_similarity
